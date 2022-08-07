@@ -39,8 +39,8 @@ sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-nvm install v12.13.0
-nvm use v12.13.0
+nvm install 10
+nvm use v10
 npm update -g
 
 npm install -g webpack@4.46.0
